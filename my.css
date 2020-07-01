@@ -1,0 +1,92 @@
+.first-section-banner{
+
+    background-repeat:no-repeat ;
+    background-image: url( "img/header-bg.png");
+}
+
+
+
+
+body{
+    margin:0 ;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+h1{
+
+color: palevioletred;
+
+
+    font-size: 50px;
+}
+h2{
+
+    font-size:40px ;
+    
+}
+
+
+p{
+    color:dimgray;
+}
+
+.button-H{
+
+    text-decoration: none;
+background-image: linear-gradient(lightsalmon,tomato);
+padding: 10px 20px;
+border-radius: 5px;
+color:white ;
+font-weight: 600;
+
+    
+}
+
+.half-width{
+
+        width: 30%;
+        float: left;
+        margin-left:2% ;
+        padding-left: 2%;
+    }
+    
+
+
+
+ .second-section{
+ background-image:url("img/biography-bg.png") ;
+background-repeat: no-repeat;
+background-position: left;
+
+ }
+
+
+
+.third-section {
+
+     background-image: url(img/latest-work-bg.png); 
+    background-repeat: no-repeat;
+    background-position: right;
+
+
+
+
+}
+
+
+
+
+
+
+
+
+ .row  {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
